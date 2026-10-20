@@ -28,7 +28,7 @@ foreach(test_source_path IN LISTS test_files)
     add_executable(${test_name} "${test_source_path}")
     
     # Link the executable against your library and Unity
-    target_link_libraries(${test_name} PRIVATE TinyJSON unity)
+    target_link_libraries(${test_name} PRIVATE hello_lib unity)
     
     # Register this program as a separate test command inside CTest
     add_test(NAME ${test_name} COMMAND ${test_name})

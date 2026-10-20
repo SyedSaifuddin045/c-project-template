@@ -1,0 +1,58 @@
+# ====================================================================
+# CMake Build Artifacts
+# ====================================================================
+build/
+Build/
+_deps/
+CMakeFiles/
+CMakeCache.txt
+CMakeCompilerIdC.c
+cmake_install.cmake
+Makefile
+targets.cmake
+compile_commands.json
+
+# ====================================================================
+# Compiled Objects, Libraries, and Executables
+# ====================================================================
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# ====================================================================
+# Unity Testing Framework Artifacts (if generated locally)
+# ====================================================================
+/tests/build/
+*.test
+
+# ====================================================================
+# Code Editor / IDE Configurations
+# ====================================================================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# CLion / IntelliJ
+.idea/
+cmake-build-*/
+
+# Vim / Neovim
+*~
+*.swp
+*.swo
+
+# MacOS specific system files
+.DS_Store
+
+# Windows specific system files
+Thumbs.db
+Desktop.ini
